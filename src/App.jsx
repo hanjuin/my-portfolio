@@ -13,11 +13,12 @@ import Contact from './pages/Contact';
 const App = () => {
   return (
     <div className="bg-white min-h-screen w-full">
-      <div className="max-w-7xl mx-auto bg-gray-50 min-h-screen flex flex-col">
+      <Router>
+        {/* Navbar outside the content box */}
+        <Navbar />
 
-        <Router>
-          <Navbar />
-
+        {/* Main content box */}
+        <div className="max-w-7xl mx-auto bg-white-50 min-h-screen flex flex-col px-6">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -27,9 +28,9 @@ const App = () => {
             <Route path="/skills" element={<Skills />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </Router>
+        </div>
 
-      </div>
+      </Router>
     </div>
   );
 };

@@ -3,8 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className="bg-white w-full shadow-md">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <div className="bg-white w-full sticky top-0 z-50 shadow-md">
+      {/* Full screen width background */}
+
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+        {/* Centered content */}
         <Link to="/" className="text-2xl font-bold text-blue-600">
           Han Juin Wong
         </Link>
