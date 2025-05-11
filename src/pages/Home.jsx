@@ -27,8 +27,7 @@ const Home = () => {
       <section className="text-center py-16 w-full max-w-3xl">
         <h2 className="text-3xl font-bold mb-6">About Me</h2>
         <p className="text-gray-600 mb-6">
-          I'm passionate about building software solutions and conducting research in AI, traffic prediction, and currency recognition. 
-          I love combining creativity and logic to solve real-world problems.
+          Aspiring software engineer with a passion for solving real-world problems through clean, effective code. Currently pursuing a Master’s in Computer and Information Sciences at AUT, I’m especially drawn to the fields of AI and machine learning, where I strive to create intelligent, impactful solutions. Whether I’m developing apps or strategizing over a board game, I approach every challenge with curiosity, creativity, and a love for logical thinking. I'm eager to collaborate with innovative teams and keep learning through hands-on projects that make a difference.
         </p>
         <Link to="/about" className="text-blue-600 hover:underline font-semibold">
           Learn more →
